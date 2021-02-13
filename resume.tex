@@ -9,17 +9,18 @@
 
 \usepackage{graphicx}
 \usepackage[T1]{fontenc}
+\usepackage{fix-cm}
 \graphicspath{ {./assets/} }
 \usepackage{xcolor}
 \usepackage[hidelinks]{hyperref} 
 \begin{document}
 
-\name{\huge \sc{Simon Li}\vspace{2mm}}
+\name{\fontsize{40}{40}\selectfont \sc{Simon Li}\vspace{2mm}}
 {
     \hfill \includegraphics[scale=0.0032]{phone.png} (647) 819-8639 \vspace{0mm}\\\vspace{0mm}%
     \hfill \href{mailto:jianyan.li@uwaterloo.ca}{\includegraphics[scale=0.0035]{email.png} jianyan.li@uwaterloo.ca}       \vspace{0mm}\\\vspace{0mm}%
     \hfill \href{https://simonliuwaterloo.github.io/website/}{\includegraphics[scale=0.004]{web.png} simonliuwaterloo.github.io/website/}           \vspace{0mm}\\\vspace{0mm}%
-    \hfill \href{https://github.com/Simonliuwaterloo}{{\includegraphics[scale=0.023]{github.png} https://github.com/Simonliuwaterloo}} \vspace{0mm}\\\vspace{-9mm}%
+    \hfill \href{https://github.com/Simonliuwaterloo}{{\includegraphics[scale=0.023]{github.png} https://github.com/Simonliuwaterloo}} \vspace{0mm}\\\vspace{-14mm}%
 }
 
 \begin{resume}
@@ -27,71 +28,12 @@
     % Skills / Keywords
     \section{\mysidestyle \textbf{\large{S}\small{KILLS}}}
 
-    \textbf{Language:} Java, Groovy, SQL, Python, C++, JavaScript/Node, HTML\\
-    \textbf{Tool:} Git, SVN, Github, Jira, Confluence, Makefile, apt, conda \\
-    \textbf{Editor:} IntelliJ IDEA, Visual Studio Code, Vim \\
-    \textbf{Framework:} pandas, Matplotlib, NumPy, Flutter, Apache POI\\
-    \textbf{Process:} Agile, Scrums, test-driven-development(TDD), code reviews
+    \textbf{Languages:} Java, Groovy, SQL, Python, C++, JavaScript/Node, HTML\\
+    \textbf{Tools:} Git, SVN, Github, Jira, Confluence, Makefile, apt, conda \\
+    \textbf{Editors:} IntelliJ IDEA, Visual Studio Code, Vim \\
+    \textbf{Frameworks:} pandas, Matplotlib, NumPy, Flutter, Apache POI
     \vspace{-1mm}
 
-\sectionline
-
-    %__________________________________________________________________________________________________________________
-    % Professional Experience
-    \section{\mysidestyle \textbf{\large{E}\small{XPERIENCE}}}
-
-    % NRX
-    \textbf{\listing HubHead Corp.} \vspace{2mm}\\\vspace{1mm}%
-    \textsl{Developer} \hfill \textbf{September 2020 -- December 2020}\\
-    • Developed \textbf{Enterprise Asset Management Systems(EAM)} in Java/Groovy\\
-    • Replaced manual data validation process with a program that validates data integrity and fixes
-    data issues when possible.
-    Accelerated data validation speed by \textbf{100 times}\\
-    • Created a program that helped customers sanitize \textbf{bill of materials(BOM)} records\\
-    • Wrote \textbf{Groovy} scripts that convert \textbf{SAP} export files to internal import files using \textbf{Apache POI}
-    \vspace{-1mm}
-
-    % UW
-    \textbf{\listing University of Waterloo} \vspace{2mm}\\\vspace{1mm}%
-    \textsl{Research Assistant} \hfill \textbf{January 2020 -- April 2020}\\
-    • Worked on a \textbf{batteryless} and wireless \textbf{touch user interface(TUI)} utilizing radio wave technology \\
-    • Supported \textbf{10 touch gestures}, recognition accuracy was above \textbf{91 percent}\\
-    • Wrote code to collect data from RFID reader and classify them into touch gestures in real-time using Python, C\# and Go\\
-    • Built front-end UI using Chart.js to display real-time gesture classification result\\
-    • \textbf{Publication} as second author: \href{https://dl.acm.org/doi/10.1145/3384419.3430712}{\emph{Sensing Finger Input Using An RFID Transmission Line}}\\
-    • \href{https://youtu.be/L_5GfVamZMs}{Video demo: https://youtu.be/L\_5GfVamZMs}
-    \vspace{-1mm}
-
-    % pelmorex
-    \textbf{\listing Pelmorex Corp.} \vspace{2mm}\\\vspace{1mm}%
-    \textsl{QA Developer} \hfill \textbf{January 2019 -- April 2019}\\
-    • Worked on projects with \textbf{test-driven-development} process in an \textbf{Agile} environment, actively parti\-cipated in and held \textbf{scrums}\\
-    • Designed APIs using Express.js framework, worked with Vue.js and Nuxt.js framework, familiar with Node.js asynchronous features\\
-    • Tested using Jest, Mocha, Ava and PHPUnit framework, wrote end-to-end tests with Puppeteer, Selenium and created load tests with k6\\
-    • Monitored and debugged with kubectl, Grafana and Kibana in production environment
-    
-    \vspace{-1mm}
-\sectionline
-    %__________________________________________________________________________________________________________________
-    % Summary
-    \section{\mysidestyle \textbf{\large{P}\small{ROJECTS}}}
-
-    \textbf{\listing Path Tracer (3D Renderer)} \vspace{2mm}\\\vspace{1mm}%
-    \textsl{Developer} \hfill \textbf{December 2020 -- Present}\\
-    • Built a simple path tracer in C++ that supports:
-    shading, antialiasing, different materials, dielectric reflection, depth of
-    field and customizable camera\\
-    • Created three different materials with
-    customizability: diffuse material with custom color, metal with custom fuzziness and color, and dielectric material with custom refractive index and color
-    \vspace{-1mm}
-
-    \textbf{\listing Mobile Application ``Meetworth''} \vspace{2mm}\\\vspace{1mm}%
-    \textsl{Developer} \hfill \textbf{January 2019 -- April 2019}\\
-    • Created a cross-platform, open-source application called “Meetworth” using \textbf{Flutter}\\
-    • Meetworth helps users to find a meeting place with their friends\\
-    • Made Google API calls to retrieve geological data, restricted API keys with \textbf{Google Cloud Platform}\\
-    • Released and monitored application with Google Play Console
-    \vspace{-1mm}
 \sectionline
 
     %__________________________________________________________________________________________________________________
@@ -104,6 +46,67 @@
     • Won \textbf{First in Class Engineering Scholarship} and 
     \textbf{President’s Research Award}\\
     • Finished all four terms on \textbf{Dean's Honours List}
+    \vspace{-1mm}
+\sectionline
+
+    %__________________________________________________________________________________________________________________
+    % Professional Experience
+    \section{\mysidestyle \textbf{\large{E}\small{XPERIENCE}}}
+
+    % NRX
+    \textbf{\listing HubHead Corp.} \vspace{2mm}\\\vspace{1mm}%
+    \textsl{Software Developer} \hfill \textbf{September 2020 -- December 2020}\\
+    • Developed \textbf{Enterprise Asset Management Systems (EAM)} in Java/Groovy\\
+    • Led the localization of software solution, increased number of supported languages from 1 to \textbf{4}\\
+    • Wrote Groovy scripts that validates data integrity and fixes
+    data issues to replace manual data validation,
+    increased data validation speed by \textbf{100 times}\\
+    • Created a program that helps customers sanitize \textbf{bill of materials (BOM)} records\\
+    • Wrote \textbf{Groovy} scripts that convert \textbf{SAP} export files to internal import files using \textbf{Apache POI}
+    \vspace{-1mm}
+
+    % UW
+    \textbf{\listing University of Waterloo} \vspace{2mm}\\\vspace{1mm}%
+    \textsl{Research Assistant} \hfill \textbf{January 2020 -- April 2020}\\
+    • Worked on a \textbf{batteryless} and wireless \textbf{touch user interface (TUI)} utilizing radio wave technology \\
+    • Developed a classfication program that supports \textbf{10 touch gestures}, achieving a recognition accuracy of over \textbf{91 percent}\\
+    • Wrote code to collect data from RFID reader and classify them into touch gestures in real-time using \textbf{Python}, \textbf{C\#} and \textbf{Go}\\
+    • Built front-end UI using \textbf{Chart.js} to display real-time gesture classification result\\
+    • \textbf{Publication} (second author): \href{https://dl.acm.org/doi/10.1145/3384419.3430712}{\emph{Sensing Finger Input Using An RFID Transmission Line}}\\
+    • \href{https://youtu.be/L_5GfVamZMs}{Video demo: https://youtu.be/L\_5GfVamZMs}
+    \vspace{-1mm}
+
+    % pelmorex
+    \textbf{\listing Pelmorex Corp.} \vspace{2mm}\\\vspace{1mm}%
+    \textsl{QA Developer} \hfill \textbf{January 2019 -- April 2019}\\
+    • Worked on web projects with \textbf{test-driven-development} process in an \textbf{Agile} environment\\
+    • Leveraged \textbf{Node.js} asynchronous features to design \textbf{microservices} using \textbf{Express.js} and \textbf{Vue.js}\\
+    • Developed and maintained unit tests using \textbf{Jest}, \textbf{Mocha}, \textbf{Ava} and \textbf{PHPUnit} framework\\
+    • Wrote End-To-End tests with \textbf{Puppeteer}, \textbf{Selenium} and created load tests using \textbf{k6}\\
+    • Monitored and debugged microservices with \textbf{kubectl}, \textbf{Grafana} and \textbf{Kibana}\\
+    • Participated in and held \textbf{scrums} and \textbf{code reviews}
+
+    \vspace{-1mm}
+\sectionline
+    %__________________________________________________________________________________________________________________
+    % Summary
+    \section{\mysidestyle \textbf{\large{P}\small{ROJECTS}}}
+
+    \textbf{\listing Path Tracer (3D Renderer)} \vspace{2mm}\\\vspace{1mm}%
+    \textsl{Developer} \hfill \textbf{December 2020 -- Present}\\
+    • Built a simple path tracer in \textbf{C++} that supports:
+    shading, antialiasing, different materials, dielectric reflection, depth of
+    field and customizable camera\\
+    • Created three different materials with
+    customizability: diffuse material with custom color, metal with custom fuzziness and color, and dielectric material with custom refractive index and color
+    \vspace{-1mm}
+
+    \textbf{\listing Mobile Application: ``Meetworth''} \vspace{2mm}\\\vspace{1mm}%
+    \textsl{Developer} \hfill \textbf{January 2019 -- April 2019}\\
+    • Created a cross-platform, open-source application called “Meetworth” using \textbf{Flutter}\\
+    • Meetworth helps users to find a meeting place with their friends\\
+    • Leveraged \textbf{Google Cloud Platform} to retrieve geological data from \textbf{Google APIs}\\
+    • Released and monitored application with \textbf{Google Play Console}
     \vspace{-1mm}
 
 \end{resume}
